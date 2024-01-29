@@ -1,0 +1,52 @@
+{
+  "version": 4,
+  "terraform_version": "1.6.6",
+  "serial": 9,
+  "lineage": "f38bc470-6635-5153-5a68-aa6e67bd7457",
+  "outputs": {},
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "aws_vpc",
+      "name": "Vpc-bucket12120",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "arn": "arn:aws:ec2:us-east-1:164138150886:vpc/vpc-0ae69a7d6d6d74154",
+            "assign_generated_ipv6_cidr_block": false,
+            "cidr_block": "10.0.0.0/16",
+            "default_network_acl_id": "acl-07b49e67d44b2f652",
+            "default_route_table_id": "rtb-045986c2dfdca456f",
+            "default_security_group_id": "sg-0570382ef6cff8414",
+            "dhcp_options_id": "dopt-00ddcac642129d66e",
+            "enable_dns_hostnames": false,
+            "enable_dns_support": true,
+            "enable_network_address_usage_metrics": false,
+            "id": "vpc-0ae69a7d6d6d74154",
+            "instance_tenancy": "default",
+            "ipv4_ipam_pool_id": null,
+            "ipv4_netmask_length": null,
+            "ipv6_association_id": "",
+            "ipv6_cidr_block": "",
+            "ipv6_cidr_block_network_border_group": "",
+            "ipv6_ipam_pool_id": "",
+            "ipv6_netmask_length": 0,
+            "main_route_table_id": "rtb-045986c2dfdca456f",
+            "owner_id": "164138150886",
+            "tags": {
+              "Name": " DEvops-VPC789"
+            },
+            "tags_all": {
+              "Name": " DEvops-VPC789"
+            }
+          },
+          "sensitive_attributes": [],
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}
